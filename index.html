@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bas van Iterson | Challenge 1 | Space X</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="images/favicon_logo.svg" type="image/svg" width="100%">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">
+          <img class="logo" src="images/logo_spaceX.svg">
+        </a>
+        <a href="#">Arrival</a>
+        <a href="#">Mission</a>
+        <a href="#">World</a>
+        <a href="#">Survival</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <img src="images/planet_mars.png" class="planet_mars">
+      <div class="flex-container">
+        <div class="flex-item">
+          <div class="chart-block">
+            <div class="flex-title-container">
+              <div class="flex-title-item">
+                <img src="images/distance.png" class="title-icon">
+              </div>
+              <div class="flex-title-item">
+                <h3 class="block-title">Mars travel distance</h3>
+              </div>
+            </div>
+            <canvas id="chart1"></canvas>
+          </div>
+        </div>
+
+        <div class="flex-item">
+          <div class="chart-block">
+            <div class="flex-title-container">
+              <div class="flex-title-item">
+                <img src="images/sun-icon.png" class="title-icon">
+              </div>
+              <div class="flex-title-item">
+                <h3 class="block-title">Weather circumstances</h3>
+              </div>
+            </div>
+            <canvas id="chart2"></canvas>
+          </div>
+        </div>
+
+        <div class="flex-item">
+          <div class="chart-block">
+            <div class="flex-title-container">
+              <div class="flex-title-item">
+                <img src="images/wind-icon.png" class="title-icon">
+              </div>
+              <div class="flex-title-item">
+                <h3 class="block-title">Storm circumstances</h3>
+              </div>
+            </div>
+            <canvas id="chart3"></canvas>
+          </div>
+        </div>
+
+      </div>
+    </header>
+  </body>
+</html>
