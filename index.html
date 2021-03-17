@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="icon" href="images/favicon_logo.svg" type="image/svg" width="100%">
     <script src="scripts/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!--  Dit is een CSS3 animatie library dus heb nagekeken of ik dit kon gebruiken volgens de richtlijnen.-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
   </head>
   <body>
     <header>
+      <div class="animate__animated animate__slideInUp animate-slider" id="intro-slider">
+        <img class="logo_animate" src="images/logo_spaceX.svg">
+      </div>
       <div class="topnav" id="myTopnav">
         <a href="index.html">
           <img class="logo" src="images/logo_spaceX.svg">
@@ -24,6 +30,36 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
+      </div>
+      <div class="image-overlay">
+        <img class="mars-background" src="images/Mars-background.png">
+      </div>
+      <div class="flex-container">
+        <div class="content">
+          <div class="status-block">
+            <div class="flex-title-container">
+              <div class="flex-title-item">
+                <img src="images/mars-dome-icon.png" class="title-icon">
+              </div>
+              <div class="flex-title-item">
+                <h3 class="block-title">Time on the base</h3>
+              </div>
+            </div>
+          </div>
+          <div id="main" class="nacht">
+            <h1 class="clock-title" id="clock">0:00</h1>
+          </div>
+          <div class="status-block">
+            <div class="flex-title-container">
+              <div class="flex-title-item">
+                <img src="" class="title-icon">
+              </div>
+              <div class="flex-title-item">
+                <h3 class="block-title">Central clock</h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   </body>
