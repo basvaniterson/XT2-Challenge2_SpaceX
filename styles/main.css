@@ -6,10 +6,6 @@ body {
   margin: 0px;
 }
 
-header {
-  max-height: 100vh;
-}
-
 .container {
   margin: 0 auto;
   max-height: 100vh;
@@ -230,7 +226,7 @@ div:after{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 91vh;
+  max-height: 91vh;
 }
 
 .dag {
