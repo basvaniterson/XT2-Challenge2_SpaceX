@@ -217,7 +217,7 @@ div:after{
   text-transform: uppercase;
   font-family: 'Space Mono', monospace;
   letter-spacing: 6px;
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 20px;
   animation: glitch 1s linear infinite;
 
@@ -259,7 +259,7 @@ div:after{
 }
 
 .clock-title {
-  font-size: 5em;
+  font-size: 30px;
   text-align: center;
   color: #ffffff;
   font-weight: 200;
